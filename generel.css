@@ -6,12 +6,88 @@
 }
 
 img {
-  width: 50%;
+  width: 100%;
   height: auto;
   display: block;
 }
 
+/* illustrator billede med cirkler */
+main {
+  background-image: url();
+}
+
 /* web */
-.web_1 img {
-  object-fit: cover;
+
+h2 {
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+
+h2,
+p {
+  padding-left: 3%;
+}
+
+.web_1_pic img {
+  width: 100%;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.process_pic img {
+  width: 100%;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.web_har_lært_pic img {
+  width: 100%;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+/* ux/ui */
+
+/* Desktop */
+
+/* web */
+@media (min-width: 800px) {
+  .web_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .web_1_pic img {
+    padding-top: 31%;
+    margin-left: -56px;
+  }
+}
+
+@media (min-width: 800px) {
+  .web_process {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    order: 1;
+    padding-top: 9%;
+  }
+  .process_pic img {
+    padding-top: 17%;
+  }
+}
+
+@media (min-width: 800px) {
+  .web_har_lært {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 9%;
+  }
+  .web_har_lært_pic img {
+    padding-top: 30%;
+    margin-left: -56px;
+  }
 }
