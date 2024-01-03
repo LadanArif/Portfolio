@@ -6,12 +6,12 @@
 }
 
 img {
-  width: 100%;
+  width: 50%;
   height: auto;
   display: block;
 }
 
-/* web 1 del */
-.web_pic img {
+/* web */
+.web_1 img {
   object-fit: cover;
 }
