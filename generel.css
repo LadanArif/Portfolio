@@ -1,0 +1,17 @@
+/* mobilsite */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* web 1 del */
+.web_pic img {
+  object-fit: cover;
+}
