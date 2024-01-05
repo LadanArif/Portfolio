@@ -10,7 +10,7 @@ img {
   display: block;
 }
 
-/* illustrator billede med cirkler */
+/* illustrator billede */
 main {
   background-image: url();
 }
@@ -18,6 +18,11 @@ main {
 /* mobilsite */
 
 /* CV */
+
+.mit_cv {
+  padding-left: 3%;
+  margin-top: 6%;
+}
 
 .om_mig_profil img {
   width: 100%;
@@ -32,6 +37,7 @@ main {
 .om_mig_profil {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding-left: 2%;
 }
 
 .om_mig_profil p {
@@ -42,10 +48,15 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 4%;
+  padding-left: 4%;
 }
 
 .arbejde {
   padding-top: 15%;
+}
+
+.cv_kompetencer {
+  padding-left: 4%;
 }
 
 /* web */
@@ -175,6 +186,58 @@ p {
 }
 
 /* Desktop */
+
+/* CV */
+
+@media (min-width: 800px) {
+  .om_mig_navn {
+    padding-left: 1%;
+  }
+}
+
+@media (min-width: 800px) {
+  .om_mig_profil p {
+    margin-left: 0%;
+    margin-right: 16%;
+  }
+  .om_mig_profil img {
+    height: 580px;
+    padding-right: 8%;
+    margin-top: -205px;
+  }
+}
+
+@media (min-width: 800px) {
+  .erfaring h2 {
+    margin-left: -26px;
+    padding-bottom: 4%;
+  }
+  .erfaring li {
+    margin-left: -11px;
+  }
+  .erfaring h3 {
+    margin-left: -2%;
+  }
+}
+
+@media (min-width: 800px) {
+  .arbejde {
+    margin-top: -3px;
+  }
+}
+
+@media (min-width: 800px) {
+  .cv_kompetencer h2 {
+    margin-left: -37px;
+  }
+  .cv_kompetencer {
+    padding-bottom: 4%;
+  }
+  .cv_kompetencer li {
+    margin-left: -12px;
+    padding-right: 56%;
+  }
+}
 
 /* web */
 @media (min-width: 800px) {
