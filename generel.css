@@ -17,6 +17,37 @@ main {
 
 /* mobilsite */
 
+/* CV */
+
+.om_mig_profil img {
+  width: 100%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-top: -249px;
+  height: 379px;
+}
+
+.om_mig_profil {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.om_mig_profil p {
+  grid-column: 1/2;
+}
+
+.cv_erfaring {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4%;
+}
+
+.arbejde {
+  padding-top: 15%;
+}
+
 /* web */
 
 h2 {
