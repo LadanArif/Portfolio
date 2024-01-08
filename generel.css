@@ -166,6 +166,7 @@ p {
 
 .ux_txt_2 p {
   margin-right: 34px;
+  margin-bottom: 35px;
 }
 
 .ux_txt_3 p {
@@ -422,6 +423,12 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding-top: 3%;
+  }
+}
+
+@media (min-width: 800px) {
+  .ux_hele_process {
+    padding-bottom: 5%;
   }
 }
 
