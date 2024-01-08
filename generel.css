@@ -11,8 +11,18 @@ img {
 }
 
 /* illustrator billede */
-main {
-  background-image: url();
+body {
+  background-color: #f6efe9;
+}
+
+h2 {
+  padding-top: 6%;
+  padding-bottom: 2%;
+}
+
+h2,
+p {
+  padding-left: 3%;
 }
 
 /* mobilsite */
@@ -42,6 +52,7 @@ main {
 
 .om_mig_profil p {
   grid-column: 1/2;
+  margin-right: 23px;
 }
 
 .cv_erfaring {
@@ -49,6 +60,14 @@ main {
   grid-template-columns: 1fr 1fr;
   gap: 4%;
   padding-left: 4%;
+  margin-top: 55px;
+}
+.cv_erfaring h3 {
+  margin-top: 10px;
+}
+
+.cv_kompetencer h2 {
+  padding-left: 2%;
 }
 
 .arbejde {
@@ -61,16 +80,6 @@ main {
 
 /* web */
 
-h2 {
-  padding-top: 6%;
-  padding-bottom: 2%;
-}
-
-h2,
-p {
-  padding-left: 3%;
-}
-
 .web_1_pic img {
   width: 100%;
   padding-top: 6%;
@@ -82,7 +91,7 @@ p {
 .process_pic img {
   width: 100%;
   padding-top: 6%;
-  padding-bottom: 6%;
+  padding-bottom: 4%;
   padding-left: 4%;
   padding-right: 4%;
 }
@@ -93,6 +102,22 @@ p {
   padding-bottom: 6%;
   padding-left: 4%;
   padding-right: 4%;
+}
+
+.web_process_txt {
+  padding-bottom: 6%;
+}
+
+.web_txt_1 p {
+  padding-right: 13%;
+}
+
+.web_process_txt p {
+  padding-right: 13%;
+}
+
+.web_har_lært_txt p {
+  padding-right: 13%;
 }
 
 /* ux/ui */
@@ -126,6 +151,25 @@ p {
   padding-bottom: 6%;
   padding-left: 4%;
   padding-right: 4%;
+}
+
+.ux_pic_2_2 img {
+  width: 100%;
+  padding-bottom: 6%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.ux_txt_1 p {
+  margin-right: 34px;
+}
+
+.ux_txt_2 p {
+  margin-right: 34px;
+}
+
+.ux_txt_3 p {
+  margin-right: 34px;
 }
 
 /* Animation */
@@ -185,6 +229,39 @@ p {
   }
 }
 
+/* Indhold */
+
+.indhold_img img {
+  width: 100%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.indhold_process_img img {
+  width: 100%;
+  padding-top: 3%;
+  padding-bottom: 6%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.indhold_har_laert img {
+  width: 100%;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.indhold_har_laert_pic img {
+  width: 100%;
+  padding-bottom: 6%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
 /* Desktop */
 
 /* CV */
@@ -204,6 +281,10 @@ p {
     height: 580px;
     padding-right: 8%;
     margin-top: -205px;
+    margin-left: -31px;
+    background-color: #efdccc;
+    padding-left: 8%;
+    padding-bottom: 6%;
   }
 }
 
@@ -246,8 +327,15 @@ p {
     grid-template-columns: 1fr 1fr;
   }
   .web_1_pic img {
-    padding-top: 31%;
+    padding-top: 13%;
     margin-left: -13px;
+  }
+}
+
+@media (min-width: 800px) {
+  .web_txt_1 h2 {
+    padding-left: 4%;
+    padding-bottom: 1%;
   }
 }
 
@@ -258,8 +346,15 @@ p {
     order: 1;
     padding-top: 5%;
   }
+
   .process_pic img {
     padding-top: 0%;
+    padding-bottom: 0%;
+  }
+}
+@media (min-width: 800px) {
+  .web_process_txt p {
+    margin-left: 0%;
   }
 }
 
@@ -270,8 +365,11 @@ p {
     padding-top: 4%;
   }
   .web_har_lært_pic img {
-    padding-top: 30%;
+    padding-top: 13%;
     margin-left: -13px;
+  }
+  .web_har_lært_txt h2 {
+    padding-left: 5%;
   }
 }
 
@@ -286,12 +384,28 @@ p {
 @media (min-width: 800px) {
   .ux_txt_1 p {
     padding-right: 40%;
+    margin-top: 0%;
+  }
+}
+
+@media (min-width: 800px) {
+  .ux_txt_1 p {
+    padding-right: 40%;
+    margin-top: 0%;
+  }
+  .ux_txt_1 h2 {
+    padding-left: 3%;
   }
 }
 
 @media (min-width: 800px) {
   .ux_txt_2 p {
     padding-right: 30%;
+    margin-top: 0%;
+    margin-bottom: 35px;
+  }
+  .ux_txt_2 h2 {
+    padding-left: 3%;
   }
 }
 
@@ -299,7 +413,7 @@ p {
   .ux_pic_1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 7%;
+    gap: 5%;
   }
 }
 
@@ -308,6 +422,24 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding-top: 3%;
+  }
+}
+
+@media (min-width: 800px) {
+  .ux_txt_3 p {
+    margin-top: 0%;
+  }
+  .ux_txt_3 h2 {
+    padding-left: 5%;
+  }
+}
+
+@media (min-width: 800px) {
+  .ux_pic_2_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 3%;
+    gap: 2%;
   }
 }
 
@@ -400,5 +532,66 @@ p {
   .har_laert_2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* indhold */
+@media (min-width: 800px) {
+  h2,
+  p {
+    padding-left: 2%;
+  }
+}
+
+@media (min-width: 800px) {
+  .indhold p {
+    padding-right: 40%;
+  }
+}
+
+@media (min-width: 800px) {
+  .indhold_img img {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+
+@media (min-width: 800px) {
+  .indhold_process p {
+    padding-right: 30%;
+  }
+}
+
+@media (min-width: 800px) {
+  .indhold_img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7%;
+  }
+}
+
+@media (min-width: 800px) {
+  .indhold_process_img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 3%;
+  }
+}
+
+@media (min-width: 800px) {
+  .indhold_har_laert {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 7%;
+  }
+}
+
+@media (min-width: 800px) {
+  .indhold_har_laert_pic {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .indhold_har_laert_pic img {
+    padding-top: 3%;
   }
 }
