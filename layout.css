@@ -1,20 +1,50 @@
+body {
+  background-color: #f6efe9;
+}
+
 /* CV */
-.om_mig_profil img {
+.cv_1_hel_txt {
   background-color: #efdccc;
+}
+.erfaring li {
+  list-style-type: none;
+}
+.arbejde li {
+  list-style-type: none;
+}
+.cv_kompetencer li {
+  list-style-type: none;
 }
 
 /* web */
+.web_txt_1 {
+  background-color: #efdccc;
+}
 .web_process_txt {
+  background-color: #efdccc;
+}
+.web_har_lært_txt {
   background-color: #efdccc;
 }
 
 /* ux */
-.ux_pic_2 {
+.ux_txt_1 {
   background-color: #efdccc;
 }
-.ux_pic_2_2 {
+.ux_txt_2 {
   background-color: #efdccc;
 }
-.ux_hele_process {
+.ux_txt_3 {
+  background-color: #efdccc;
+}
+
+/* Animation */
+.animation_hel_txt {
+  background-color: #efdccc;
+}
+.animation_2_txt {
+  background-color: #efdccc;
+}
+.har_laert_hel_txt {
   background-color: #efdccc;
 }
