@@ -379,11 +379,9 @@ p {
     padding-left: 2%;
     padding-right: 2%;
     height: 379px;
-    /* border-radius: 50%; */
     margin-left: 86px;
     margin-bottom: -98px;
     margin-top: -23px;
-    border-radius: 76px;
     object-fit: contain;
   }
 }
