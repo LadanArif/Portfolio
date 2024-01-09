@@ -132,6 +132,9 @@ p {
     padding-left: 5%;
     padding-bottom: 3%;
   }
+  .header-content_1 {
+    color: black;
+  }
 }
 
 /* Burgermenu mobilsite */
@@ -203,6 +206,7 @@ p {
     margin-top: 377px;
     margin-left: 16px;
     font-size: 25px;
+    color: white;
   }
 
   .menu {
@@ -1015,7 +1019,7 @@ p {
     border-radius: 3%;
     padding-bottom: 23%;
     margin-left: 10px;
-    margin-bottom: 335px;
+    margin-bottom: 66px;
     padding-top: 5%;
   }
   .indhold_txt h2 {
