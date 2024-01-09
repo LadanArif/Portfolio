@@ -266,6 +266,7 @@ p {
     margin-bottom: -98px;
     margin-top: -23px;
     border-radius: 76px;
+    object-fit: contain;
   }
 }
 
