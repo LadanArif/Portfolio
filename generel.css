@@ -77,26 +77,27 @@ p {
   .header-content_1 {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 77%;
     transform: translate(-50%, -50%);
     z-index: -1;
     color: black;
   }
   .header-content_1 h1 {
     font-size: 70px;
-    padding-left: 150%;
     margin-top: 1058px;
+    padding-bottom: 4%;
   }
   .header-content_1 h3 {
-    padding-left: 260%;
+    padding-left: 65%;
     padding-bottom: 4%;
   }
   .header-content h1 {
     font-family: "zen loop";
-    font-size: 130px;
+    font-size: 80px;
     color: white;
     letter-spacing: 4px;
-    margin-top: 600px;
+    margin-top: 653px;
+    padding-left: 10%;
   }
 }
 
@@ -137,7 +138,6 @@ p {
 
 @media (max-width: 800px) {
   .burger-nav {
-    font-family: crimson text;
     color: #130704;
     background-color: #efdccc;
     position: absolute;
@@ -159,7 +159,6 @@ p {
     text-decoration: none;
     color: black;
     font-size: 26px;
-    font-family: "zen loop";
   }
 
   .burger-divider {
@@ -233,13 +232,13 @@ p {
   }
 
   .cross .bar:nth-child(1) {
-    rotate: 48deg;
+    transform: rotate(48deg);
   }
   .cross .bar:nth-child(2) {
     opacity: 0;
   }
   .cross .bar:nth-child(3) {
-    rotate: -48deg;
+    transform: rotate(-48deg);
   }
   .active {
     top: 0;
@@ -295,22 +294,35 @@ p {
   margin-top: 23px;
 }
 .cv_erfaring h3 {
-  margin-top: 10px;
+  margin-top: 33px;
+}
+
+.erfaring h2 {
+  margin-left: -9px;
 }
 
 .cv_kompetencer h2 {
-  padding-left: 2%;
+  padding-left: 0%;
 }
 
 .arbejde {
   padding-top: 15%;
 }
+.arbejde li {
+  margin-right: 10px;
+}
 
 .cv_kompetencer {
   padding-left: 4%;
 }
+.cv_kompetencer ul {
+  margin-bottom: 33px;
+}
 
 /* web */
+.web_1 {
+  margin-top: 710px;
+}
 
 .web_1_pic img {
   width: 100%;
@@ -328,7 +340,7 @@ p {
   padding-right: 4%;
 }
 
-.web_har_lært_pic img {
+.web_har_laert_pic img {
   width: 100%;
   padding-top: 6%;
   padding-bottom: 6%;
@@ -353,7 +365,7 @@ p {
   padding-right: 13%;
 }
 
-.web_har_lært_txt p {
+.web_har_laert_txt p {
   padding-right: 13%;
   padding-bottom: 8%;
 }
@@ -401,6 +413,7 @@ p {
 .ux_txt_1 {
   margin-top: 20px;
   padding-bottom: 8%;
+  margin-top: 720px;
 }
 
 .ux_txt_1 p {
@@ -423,6 +436,7 @@ p {
   padding-right: 13%;
   padding-bottom: 8%;
   margin-bottom: 20px;
+  margin-top: 730px;
 }
 
 .animation_1_pic {
@@ -473,19 +487,23 @@ p {
   margin-bottom: 20px;
 }
 
-/* mobilsite for aniamtion */
+/* mobilsite for animation */
 @media (max-width: 800px) {
   .animation_process_2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 4%;
-    padding-top: 3%;
     padding-left: 2%;
     padding-right: 2%;
   }
 }
 
 /* Indhold */
+
+.indhold {
+  margin-top: 700px;
+  padding-bottom: 8%;
+}
 
 .indhold_img img {
   width: 100%;
@@ -495,12 +513,20 @@ p {
   padding-right: 2%;
 }
 
+.indhold_process {
+  padding-bottom: 8%;
+}
+
 .indhold_process_img img {
   width: 100%;
   padding-top: 3%;
   padding-bottom: 6%;
   padding-left: 4%;
   padding-right: 4%;
+}
+
+.indhold_txt {
+  padding-bottom: 8%;
 }
 
 .indhold_har_laert img {
@@ -547,25 +573,29 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-left: 2%;
+    margin-top: 96px;
   }
   .om_mig_profil img {
     height: 100%;
     width: 100%;
     padding-right: 8%;
-    margin-top: -9px;
+    margin-top: 17px;
+    margin-bottom: 0%;
     margin-left: -31px;
     padding-left: 8%;
-    padding-bottom: 6%;
+    padding-bottom: 10%;
     order: 1;
   }
   .om_mig_profil h2 {
     margin-right: 112px;
+    margin-top: -49px;
   }
 }
 @media (min-width: 800px) {
   .erfaring h2 {
     margin-left: -26px;
     padding-bottom: 4%;
+    font-size: 34px;
   }
   .erfaring li {
     margin-left: -11px;
@@ -574,6 +604,7 @@ p {
   .erfaring h3 {
     margin-left: -2%;
     margin-bottom: 16px;
+    margin-top: 3%;
   }
 }
 
@@ -592,7 +623,8 @@ p {
 
 @media (min-width: 800px) {
   .cv_kompetencer h2 {
-    margin-left: -37px;
+    margin-left: -14px;
+    padding-bottom: 1%;
   }
   .cv_kompetencer {
     padding-bottom: 4%;
@@ -619,7 +651,7 @@ p {
 
 @media (min-width: 800px) {
   .web_txt_1 {
-    margin-bottom: 39px;
+    margin-bottom: 109px;
     margin-top: 43px;
     border-radius: 3%;
     margin-left: 15px;
@@ -630,6 +662,7 @@ p {
   .web_txt_1 h2 {
     padding-left: 4%;
     padding-bottom: 1%;
+    font-size: 34px;
   }
 }
 
@@ -650,6 +683,9 @@ p {
   .web_process_txt p {
     margin-left: 0%;
   }
+  .web_process_txt h2 {
+    font-size: 34px;
+  }
 }
 @media (min-width: 800px) {
   .web_process_txt {
@@ -660,21 +696,22 @@ p {
 }
 
 @media (min-width: 800px) {
-  .web_har_lært {
+  .web_har_laert {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-top: 4%;
   }
-  .web_har_lært_pic img {
+  .web_har_laert_pic img {
     padding-top: 13%;
     margin-left: -13px;
   }
-  .web_har_lært_txt h2 {
+  .web_har_laert_txt h2 {
     padding-left: 5%;
+    font-size: 34px;
   }
 }
 @media (min-width: 800px) {
-  .web_har_lært_txt {
+  .web_har_laert_txt {
     margin-bottom: 257px;
     margin-top: 89px;
     border-radius: 3%;
@@ -710,7 +747,8 @@ p {
   }
   .ux_txt_1 h2 {
     padding-left: 3%;
-    padding-top: 35px;
+    padding-top: 3%;
+    font-size: 34px;
   }
 }
 
@@ -722,7 +760,8 @@ p {
   }
   .ux_txt_2 h2 {
     padding-left: 3%;
-    padding-top: 35px;
+    padding-top: 3%;
+    font-size: 34px;
   }
   .ux_txt_2 {
     margin-right: 15px;
@@ -760,7 +799,9 @@ p {
   }
   .ux_txt_3 h2 {
     padding-left: 5%;
-    padding-top: 35px;
+    padding-top: 8%;
+    font-size: 34px;
+    padding-bottom: 3%;
   }
   .ux_txt_3 {
     margin-bottom: 450px;
@@ -808,6 +849,12 @@ p {
     width: 81%;
     margin-left: 97%;
   }
+  .animation_1_pic {
+    width: 100%;
+    padding-bottom: 6%;
+    padding-left: 4%;
+    padding-right: 8%;
+  }
 }
 
 @media (min-width: 800px) {
@@ -820,6 +867,18 @@ p {
   }
   .animation_1 h2 {
     margin-left: 19px;
+  }
+  .animation_hel_txt {
+    border-radius: 3%;
+    margin-right: 15px;
+    margin-left: 10px;
+  }
+  .animation_hel_txt h2 {
+    font-size: 34px;
+    padding-top: 4%;
+  }
+  .animation_hel_txt p {
+    padding-left: 1%;
   }
 }
 
@@ -835,6 +894,18 @@ p {
   }
   .animation_process_1 p {
     padding-right: 57px;
+  }
+  .animation_process_1 h2 {
+    font-size: 34px;
+  }
+  .animation_2_txt {
+    margin-top: 2px;
+    padding-right: 13%;
+    padding-bottom: 8%;
+    margin-bottom: 383px;
+    border-radius: 3%;
+    margin-left: 10px;
+    padding-top: 2%;
   }
 }
 
@@ -852,8 +923,14 @@ p {
   }
   .har_laert_1 img {
     grid-column: 1/2;
-    margin-top: -91px;
+    margin-top: -390px;
     padding-bottom: 11%;
+  }
+  .har_laert_hel_txt {
+    grid-column: 2/2;
+    border-radius: 3%;
+    padding-bottom: 23%;
+    margin-right: 15px;
   }
   .har_laert_1 h2 {
     grid-column: 2/2;
@@ -885,8 +962,21 @@ p {
 }
 
 @media (min-width: 800px) {
+  .indhold {
+    border-radius: 3%;
+    margin-right: 15px;
+    margin-left: 10px;
+    margin-top: 728px;
+    margin-bottom: 10px;
+  }
+  .indhold h2 {
+    font-size: 34px;
+  }
+
   .indhold p {
     padding-right: 40%;
+    margin-top: 0px;
+    margin-left: 9px;
   }
 }
 
@@ -898,8 +988,19 @@ p {
 }
 
 @media (min-width: 800px) {
+  .indhold_process {
+    border-radius: 3%;
+    margin-right: 15px;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  .indhold_process h2 {
+    font-size: 34px;
+  }
   .indhold_process p {
     padding-right: 30%;
+    margin-top: 0px;
+    margin-left: 9px;
   }
 }
 
@@ -908,6 +1009,27 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 7%;
+  }
+  .indhold_txt {
+    border-radius: 3%;
+    padding-bottom: 23%;
+    margin-left: 10px;
+    margin-bottom: 335px;
+    padding-top: 5%;
+  }
+  .indhold_txt h2 {
+    font-size: 34px;
+    padding-left: 4%;
+    padding-bottom: 4%;
+  }
+  .indhold_txt p {
+    padding-right: 30%;
+    margin-top: 0px;
+    margin-left: 9px;
+    padding-left: 4%;
+  }
+  .indhold_pic img {
+    margin-top: -39px;
   }
 }
 

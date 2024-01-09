@@ -2,6 +2,26 @@ body {
   background-color: #f6efe9;
 }
 
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+}
+
+.header-content_1 {
+  font-family: "Playfair Display", serif;
+}
+
+.header-content h1 {
+  font-family: "Playfair Display", serif;
+}
+
+.burger-nav ul li a {
+  font-family: "Playfair Display", serif;
+}
+p {
+  font-family: "Crimson Text", serif;
+}
+
 /* CV */
 .cv_1_hel_txt {
   background-color: #efdccc;
@@ -23,7 +43,7 @@ body {
 .web_process_txt {
   background-color: #efdccc;
 }
-.web_har_lært_txt {
+.web_har_laert_txt {
   background-color: #efdccc;
 }
 
@@ -46,5 +66,16 @@ body {
   background-color: #efdccc;
 }
 .har_laert_hel_txt {
+  background-color: #efdccc;
+}
+
+/* Indhold*/
+.indhold {
+  background-color: #efdccc;
+}
+.indhold_process {
+  background-color: #efdccc;
+}
+.indhold_txt {
   background-color: #efdccc;
 }
