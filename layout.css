@@ -27,10 +27,10 @@ p {
   background-color: #efdccc;
 }
 .erfaring li {
-  list-style-type: none;
+  list-style-type: disc;
 }
 .arbejde li {
-  list-style-type: none;
+  list-style-type: disc;
 }
 .cv_kompetencer li {
   list-style-type: none;

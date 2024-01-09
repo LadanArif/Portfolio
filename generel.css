@@ -390,7 +390,8 @@ p {
   grid-column: 1/2;
   margin-right: 23px;
   padding-left: 5%;
-  padding-bottom: 10%;
+  padding-bottom: 4%;
+  font-size: 17px;
 }
 
 .cv_1_hel_txt {
@@ -412,6 +413,8 @@ p {
 }
 .cv_erfaring h3 {
   margin-top: 33px;
+  padding-bottom: 8%;
+  margin-left: -4px;
 }
 
 .erfaring h2 {
@@ -683,9 +686,10 @@ p {
 
 @media (min-width: 800px) {
   .om_mig_profil p {
-    margin-left: -3%;
+    margin-left: -1%;
     margin-right: 16%;
-    margin-bottom: 39px;
+    margin-bottom: -20px;
+    font-size: 19px;
   }
   .om_mig_profil {
     display: grid;
@@ -721,18 +725,18 @@ p {
   }
   .erfaring h3 {
     margin-left: -2%;
-    margin-bottom: 16px;
+    margin-bottom: -28px;
     margin-top: 3%;
   }
 }
 
 @media (min-width: 800px) {
   .arbejde {
-    margin-top: -3px;
+    margin-top: 29px;
   }
   .arbejde h3 {
     margin-top: -4px;
-    margin-bottom: 21px;
+    margin-bottom: -23px;
   }
   .arbejde li {
     margin-right: 42px;
