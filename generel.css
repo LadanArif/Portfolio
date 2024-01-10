@@ -877,7 +877,7 @@ p {
 
 @media (min-width: 800px) {
   .ux_txt_2 p {
-    padding-right: 30%;
+    padding-right: 40%;
     margin-top: 0%;
     margin-bottom: -85px;
   }
@@ -906,9 +906,7 @@ p {
   .ux_pic_2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding-top: 3%;
-  }
-  .ux_pic_2 img {
+    padding-top: 12%;
   }
 }
 
