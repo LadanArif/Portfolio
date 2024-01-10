@@ -22,6 +22,12 @@ p {
   padding-left: 3%;
 }
 
+@media (min-width: 800px) {
+  p {
+    font-size: 18px;
+  }
+}
+
 /* Links til projekter og løsninger (både desktop og mobil) */
 .web_loesning h2 {
   font-size: 20px;
@@ -1046,7 +1052,7 @@ p {
   }
   .har_laert_1 img {
     grid-column: 1/2;
-    margin-top: -390px;
+    margin-top: -456px;
     padding-bottom: 11%;
   }
   .har_laert_hel_txt {
