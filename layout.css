@@ -20,6 +20,10 @@ h3 {
 }
 p {
   font-family: "Crimson Text", serif;
+  line-height: 27px;
+}
+li {
+  font-family: "Crimson Text", serif;
 }
 
 /* CV */
@@ -28,12 +32,16 @@ p {
 }
 .erfaring li {
   list-style-type: disc;
+  line-height: 21px;
 }
 .arbejde li {
   list-style-type: disc;
+  line-height: 21px;
 }
 .cv_kompetencer li {
   list-style-type: none;
+  margin-bottom: 10px;
+  line-height: 21px;
 }
 
 /* web */
